@@ -6,6 +6,6 @@ app.get('*', (req, res) => {
     res.sendFile(__dirname + '/build/index.html')
 })
 
-app.listen(8000, () => {
+app.listen(8080, () => {
     console.log('server running')
 })
